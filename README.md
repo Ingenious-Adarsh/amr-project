@@ -12,7 +12,7 @@ This repository contains the complete **ROS 2 Humble** workspace of my **Final Y
 - All AMR processes are controlled/operated through laptop via **SSH**
 - **Autonomous Navigation** with real time **Obstacle Avoidance** is done by using open source ROS 2 **Nav2** stack
 - **SLAM** with YDLiDAR X2 and RViz2 is done by using open source ROS 2 **SLAM TOOLBOX** Package
-- **Teleoperation** for testing, manual control & mapping is done via keyboard. It can also be done by Joystic if you have.
+- **Teleoperation** for testing, manual control & mapping is done via Keyboard. It can also be done by Joystic if you have one.
 - **Encoder-based Odometry** is used for accurate localization 
 - Custom Robot **URDF** is made for RViz Visualization
 - All the commands are executed on "RPI terminals" via SSH except "Rviz & URDF" which is executed on "laptop terminal" to avoid the lagging and reduce the load on RPI. For this just keep **"export ROS_DOMAIN_ID=0"** same in .bashrc file of both Laptop & RPI.
