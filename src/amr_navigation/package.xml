@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>amr_navigation</name>
+  <version>0.1.0</version>
+  <description>Navigation package for AMR robot using ROS 2 Nav2 stack</description>
+
+  <maintainer email="adarsh@example.com">Adarsh Yadav</maintainer>
+  <license>Apache-2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <!-- Required runtime dependencies -->
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>rclcpp</exec_depend>
+  <exec_depend>launch</exec_depend>
+  <exec_depend>launch_ros</exec_depend>
+  <exec_depend>nav2_common</exec_depend>
+  <exec_depend>nav2_map_server</exec_depend>
+  <exec_depend>nav2_amcl</exec_depend>
+  <exec_depend>nav2_bt_navigator</exec_depend>
+  <exec_depend>nav2_controller</exec_depend>
+  <exec_depend>nav2_planner</exec_depend>
+  <exec_depend>nav2_waypoint_follower</exec_depend>
+  <exec_depend>nav2_lifecycle_manager</exec_depend>
+
+  <!-- Optional, helpful for IDEs -->
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
