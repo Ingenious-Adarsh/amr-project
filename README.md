@@ -7,20 +7,20 @@ This repository contains the complete **ROS 2 Humble** workspace of our **Final 
 
 ## 🛠️ Design & Development of Autonomous Mobile Robot (AMR)
 
-## 🎯 Project Highlights:-
+## 🎯 Project Highlights :-
 
 - All AMR processes are controlled/operated through laptop via **SSH**
 - **Autonomous Navigation** with real time **Obstacle Avoidance** is done by using open source ROS 2 **Nav2** stack
-- **SLAM Mapping** with YDLiDAR X2 and RViz2 using open source ROS 2 **SLAM TOOLBOX** Package
+- **SLAM** with YDLiDAR X2 and RViz2 is done using open source ROS 2 **SLAM TOOLBOX** Package
 - **Teleoperation** is done via keyboard
 - **Encoder-based Odometry** is used for accurate localization 
 - Custom Robot **URDF** is made for RViz Visualization
-- All the commands are executed on "RPI terminals" via SSH except "Rviz & URDF" which is executed on "laptop terminal" to avoid the lagging and reduce the load on RPI. For this just keep "export ROS_DOMAIN_ID=0" same in .bashrc file of both Laptop & RPI
+- All the commands are executed on "RPI terminals" via SSH except "Rviz & URDF" which is executed on "laptop terminal" to avoid the lagging and reduce the load on RPI. For this just keep **"export ROS_DOMAIN_ID=0"** same in .bashrc file of both Laptop & RPI
 
 ---
 
-## ⚙️ Main Teck Stack Components:-     
--  Microprocessor - Raspberry Pi 4B with 4GB RAM 32GB SD Card
+## ⚙️ Main Teck Stack Components :-     
+-  Microprocessor - Raspberry Pi 4B with 4GB RAM & 32GB SD Card
 -  OS - **Ubuntu Desktop 22.04.5** is installed on Raspberry Pi
 -  Entire project is based on **ROS 2 Humble**   
 -  Microcontroller - Arduino Mega
@@ -32,7 +32,7 @@ This repository contains the complete **ROS 2 Humble** workspace of our **Final 
 
 ---
 
-## 🚀 How to build ws on your system:-
+## 🚀 How to build amr_ws on your system :-
 -  **If you have similar software & hardware setup on your AMR you can directly use this repo to build your workspace and have fun with your AMR**
 -  Step 1- Copy the repo (src & config folder only) in your amr_ws then build all the packages available in "src" folder one by one to avoid any errors.
 -  Step 2- Modify and configure the .yaml & launch files with correct file names & their paths as per you setup or requirement.
@@ -42,7 +42,7 @@ This repository contains the complete **ROS 2 Humble** workspace of our **Final 
 
 --------------------------------------------------------------------
 
-## 🧱 System Architecture in short
+## 🧱 System Architecture in short :-
 
 ```plaintext
 +---------------------+                    +----------------------+
