@@ -1,6 +1,6 @@
 # 📍 amr_ws
 
-This repository contains the complete **ROS 2 Humble** workspace of our **Final Year Engineering Project**<br> 
+This repository contains the complete **ROS 2 Humble** workspace of my **Final Year Engineering Project**<br> 
 — an **Autonomous Mobile Robot** developed for educational and research purposes.
 
 ---
@@ -11,11 +11,11 @@ This repository contains the complete **ROS 2 Humble** workspace of our **Final 
 
 - All AMR processes are controlled/operated through laptop via **SSH**
 - **Autonomous Navigation** with real time **Obstacle Avoidance** is done by using open source ROS 2 **Nav2** stack
-- **SLAM** with YDLiDAR X2 and RViz2 is done using open source ROS 2 **SLAM TOOLBOX** Package
-- **Teleoperation** is done via keyboard
+- **SLAM** with YDLiDAR X2 and RViz2 is done by using open source ROS 2 **SLAM TOOLBOX** Package
+- **Teleoperation** for testing, manual control & mapping is done via keyboard. It can also be done by Joystic if you have.
 - **Encoder-based Odometry** is used for accurate localization 
 - Custom Robot **URDF** is made for RViz Visualization
-- All the commands are executed on "RPI terminals" via SSH except "Rviz & URDF" which is executed on "laptop terminal" to avoid the lagging and reduce the load on RPI. For this just keep **"export ROS_DOMAIN_ID=0"** same in .bashrc file of both Laptop & RPI
+- All the commands are executed on "RPI terminals" via SSH except "Rviz & URDF" which is executed on "laptop terminal" to avoid the lagging and reduce the load on RPI. For this just keep **"export ROS_DOMAIN_ID=0"** same in .bashrc file of both Laptop & RPI.
 
 ---
 
@@ -24,7 +24,7 @@ This repository contains the complete **ROS 2 Humble** workspace of our **Final 
 -  OS - **Ubuntu Desktop 22.04.5** is installed on Raspberry Pi
 -  Entire project is based on **ROS 2 Humble**   
 -  Microcontroller - Arduino Mega
--  Lidar sensor - YDLiDAR X2 
+-  Lidar sensor - YDLiDAR X2 (360 degree 2D Lidar with range 8m)
 -  Qudrature Optical Rotary Encoders - Hall Effect based incremental encoders are used for odometry    
 -  Motors - Johnson 12V 200 RPM DC geared motor-Grade A Quality-Encoder compatible   
 -  Motor Driver - Cytron MDD10A Dual Channel Motor Driver Shield for arduino is used
