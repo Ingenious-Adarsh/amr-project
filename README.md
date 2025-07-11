@@ -43,33 +43,33 @@ This repository contains the complete **ROS 2 Humble** workspace of my **Final Y
 ---
 
 ## 📁 Workspace Structure :-
-amr_ws/
-├── src/
-│   ├── amr_node/            # Main control node
-│   ├── amr_description/     # URDF & RViz configs
-│   ├── amr_navigation/      # Nav2 config & maps
-│   ├── YDLidar-SDK/         # LiDAR SDK 
-│   └── ydlidar_ros2_driver/ # LiDAR ROS 2 driver
-├── config/                  # SLAM & planner params
-└── README.md
+amr_ws/<br>
+├── src/<br>
+│   ├── amr_node/            # Main control node<br>
+│   ├── amr_description/     # URDF & RViz configs<br>
+│   ├── amr_navigation/      # Nav2 config & maps<br>
+│   ├── YDLidar-SDK/         # LiDAR SDK<br>
+│   └── ydlidar_ros2_driver/ # LiDAR ROS 2 driver<br>
+├── config/                  # SLAM & planner params<br>
+└── README.md<br>
 
 ---
 
 ## 📝 How to Run :-
 - After setting up everything and building the workspace source it and use the below commands to run everything correctly.
 - Step 1- "ros2 run amr_node amr_node_latest"	(run this command in 1st ssh terminal)"
-- Step 1- "ros2 launch ydlidar_ros2_driver ydlidar_launch.py"		(run in 2nd ssh terminal to start lidar laser scaning)
-- Step 1- "ros2 run teleop_twist_keyboard teleop_twist_keyboard"	(run in 3rd ssh terminal for teleoperation for mapping)
-- Step 1- "ros2 launch amr_description display.launch.py"		(run in 1st laptop terminal to launch robot urdf model in rviz)
-- Step 1- "ros2 launch slam_toolbox online_async_launch.py slam_params_file:=/home/adarsh/amr_ws/config/slam_params.yaml"	(run in 4th ssh terminal to start creating a 2D map using LiDAR)
-- Step 1- Then teleoperate your AMR slowly in your environment to creat a better quality map.
-- Step 1- "ssh rpi_hostname@rpi_ip "source /opt/ros/humble/setup.bash && source /home/adarsh/amr_ws/install/setup.bash && ros2 run nav2_map_server map_saver_cli -f /home/adarsh/amr_ws/src/amr_navigation/maps/new_map_name_here"	(run in 2nd laptop terminal to save generated map on rpi)
-- Step 1- After saving the map kill every terminal of both ssh and laptop 
-- Step 1- Again launch amr node, lidar and navigation command on ssh terminal, and launch Rviz command on laptop terminal
-- Step 1- "ros2 launch amr_navigation navigation_launch.py"	(run on ssh terminal, command to load saved map in Rviz and Launch navigation process)
-- Step 1- Now set initial position of your AMR using "2D Pose Estimate" button in Rviz. Try to match real time laser scans with generated map.
-- Step 1- Then give a goal to AMR using "2D Goal Pose" button in Rviz.
-- Step 1- Now watch your AMR navigating autonomously and avoiding obstacles in real time. ENJOY!
+- Step 2- "ros2 launch ydlidar_ros2_driver ydlidar_launch.py"		(run in 2nd ssh terminal to start lidar laser scaning)
+- Step 3- "ros2 run teleop_twist_keyboard teleop_twist_keyboard"	(run in 3rd ssh terminal for teleoperation for mapping)
+- Step 4- "ros2 launch amr_description display.launch.py"		(run in 1st laptop terminal to launch robot urdf model in rviz)
+- Step 5- "ros2 launch slam_toolbox online_async_launch.py slam_params_file:=/home/adarsh/amr_ws/config/slam_params.yaml"	(run in 4th ssh terminal to start creating a 2D map using LiDAR)
+- Step 6- Then teleoperate your AMR slowly in your environment to creat a better quality map.
+- Step 7- "ssh rpi_hostname@rpi_ip "source /opt/ros/humble/setup.bash && source /home/adarsh/amr_ws/install/setup.bash && ros2 run nav2_map_server map_saver_cli -f /home/adarsh/amr_ws/src/amr_navigation/maps/new_map_name_here"	(run in 2nd laptop terminal to save generated map on rpi)
+- Step 8- After saving the map kill every terminal of both ssh and laptop 
+- Step 9- Again launch amr node, lidar and navigation command on ssh terminal, and launch Rviz command on laptop terminal
+- Step 10- "ros2 launch amr_navigation navigation_launch.py"	(run on ssh terminal, command to load saved map in Rviz and Launch navigation process)
+- Step 11- Now set initial position of your AMR using "2D Pose Estimate" button in Rviz. Try to match real time laser scans with generated map.
+- Step 12- Then give a goal to AMR using "2D Goal Pose" button in Rviz.
+- Step 13- Now watch your AMR navigating autonomously and avoiding obstacles in real time. ENJOY!
 
 ## ✅ Ensure the Rviz Setup :-
 - Refer the screenshots shared.
