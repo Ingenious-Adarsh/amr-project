@@ -34,10 +34,11 @@ This repository contains the complete **ROS 2 Humble** workspace of our **Final 
 
 ## 🚀 How to build ws on your system:-
 -  **If you have similar software & hardware setup on your AMR you can directly use this repo to build your workspace and have fun with your AMR**
--  Step 1- Copy the repo in your amr_ws then build all the packages available in "src" folder one by one to avoid any errors.
--  Step 2- Modify and configure the parameters as per you requirement.  
--  Step 3- Do all the hardware & electronics connections properly and then test everything.
--  Step 4- Tune the parameters accordingly if your setup is a bit different.
+-  Step 1- Copy the repo (src & config folder only) in your amr_ws then build all the packages available in "src" folder one by one to avoid any errors.
+-  Step 2- Modify and configure the .yaml & launch files with correct file names & their paths as per you setup or requirement.
+-  Step 3- Ensure you upload the correct code in your arduino which is available in this repository.  
+-  Step 4- Do all the hardware & electronics connections properly and then test everything.
+-  Step 5- Tune the parameters accordingly if your setup is a bit different.
 
 --------------------------------------------------------------------
 
