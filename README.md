@@ -50,7 +50,7 @@ amr_ws/<br>
 │   ├── amr_navigation/<br>
 │   ├── YDLidar-SDK/<br>
 │   └── ydlidar_ros2_driver/<br>
-├── config/<br>
+└── config/<br>
 
 
 ---
