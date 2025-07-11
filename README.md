@@ -1,9 +1,8 @@
 # 📍 amr_ws
-Autonomous Mobile Robot - Clean &amp; Complete Workspace
-
----
 
 This repository contains the complete ROS 2 Humble workspace of our Final Year Engineering Project — an **Autonomous Mobile Robot** developed for educational and research purposes.
+
+---
 
 ## 🛠️ Design & Development of Autonomous Mobile Robot (AMR)
 
@@ -17,17 +16,20 @@ This repository contains the complete ROS 2 Humble workspace of our Final Year E
 - Custom Robot **URDF** is made for RViz Visualization
 - All the commands are executed on "RPI terminals" via SSH except "Rviz & URDF" which is executed on "laptop terminal" to avoid the lagging and reduce the load on RPI. For this just keep "export ROS_DOMAIN_ID=0" same in .bashrc file of both Laptop & RPI
 
+---
+
 ## ⚙️ Main Teck Stack Components:-     
-|  ------------------------------
-|  Microprocessor - Raspberry Pi 4B with 4GB RAM 32GB SD Card
-|  OS - **Ubuntu Desktop 22.04.5** is installed on Raspberry Pi
-|  Entire project is based on **ROS 2 Humble**   
-|  Microcontroller - Arduino Mega
-|  Lidar sensor - YDLiDAR X2 
-|  Qudrature Optical Rotary Encoders - Hall Effect based incremental encoders are used for odometry    
-|  Motors - Johnson 12V 200 RPM DC geared motor-Grade A Quality-Encoder compatible   
-|  Motor Driver - Cytron MDD10A Dual Channel Motor Driver Shield for arduino is used
-|  Battery - 12.8V 12000 mAh Li-ion battery pack is used
+-  Microprocessor - Raspberry Pi 4B with 4GB RAM 32GB SD Card
+-  OS - **Ubuntu Desktop 22.04.5** is installed on Raspberry Pi
+-  Entire project is based on **ROS 2 Humble**   
+-  Microcontroller - Arduino Mega
+-  Lidar sensor - YDLiDAR X2 
+-  Qudrature Optical Rotary Encoders - Hall Effect based incremental encoders are used for odometry    
+-  Motors - Johnson 12V 200 RPM DC geared motor-Grade A Quality-Encoder compatible   
+-  Motor Driver - Cytron MDD10A Dual Channel Motor Driver Shield for arduino is used
+-  Battery - 12.8V 12000 mAh Li-ion battery pack is used
+
+---
 
 ## 🚀 How to build ws on your system:-
 -  **If you have similar software & hardware setup on your AMR you can directly use this repo to build your workspace and have fun with your AMR**
