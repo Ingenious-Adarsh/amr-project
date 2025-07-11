@@ -1,6 +1,7 @@
 # 📍 amr_ws
 
-This repository contains the complete ROS 2 Humble workspace of our Final Year Engineering Project — an **Autonomous Mobile Robot** developed for educational and research purposes.
+This repository contains the complete **ROS 2 Humble** workspace of our **Final Year Engineering Project** 
+— an **Autonomous Mobile Robot** developed for educational and research purposes.
 
 ---
 
