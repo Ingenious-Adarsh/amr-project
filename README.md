@@ -45,12 +45,12 @@ This repository contains the complete **ROS 2 Humble** workspace of my **Final Y
 ## 📁 Workspace Structure :-
 amr_ws/<br>
 ├── src/<br>
-│   ├── amr_node/            		# Main control node<br>
-│   ├── amr_description/     		# URDF & RViz configs<br>
-│   ├── amr_navigation/      		# Nav2 config & maps<br>
-│   ├── YDLidar-SDK/         		# LiDAR SDK<br>
-│   └── ydlidar_ros2_driver/ 		# LiDAR ROS 2 driver<br>
-├── config/                  		# SLAM & planner params<br>
+│   ├── amr_node/<br>
+│   ├── amr_description/<br>
+│   ├── amr_navigation/<br>
+│   ├── YDLidar-SDK/<br>
+│   └── ydlidar_ros2_driver/<br>
+├── config/<br>
 └── README.md
 
 ---
