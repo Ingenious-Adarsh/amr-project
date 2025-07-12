@@ -77,7 +77,7 @@ amr_ws/<br>
 ---
 ## 📸 Final Prototype Images :-
 
-![Robot Photo](/amr_ws/images/amr collage.png)
+![Robot Photo](./images/amr_collage.png)
 
 --------------------------------------------------------------------
 
