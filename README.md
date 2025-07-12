@@ -30,7 +30,7 @@ amr_ws/<br>
 
 ---
 
-## ⚙️ Main Teck Stack Components :-     
+## ⚙️ Main Teck Stack & Components :-     
 -  Microprocessor - Raspberry Pi 4B with 4GB RAM & 32GB SD Card
 -  OS - **Ubuntu Desktop 22.04.5** is installed on Raspberry Pi
 -  Entire project is based on **ROS 2 Humble**   
