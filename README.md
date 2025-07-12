@@ -1,9 +1,6 @@
 # 📍 amr_ws
 
 This repository contains the complete **ROS 2 Humble** workspace of our **Final Year Engineering Project**<br> 
-— an **Autonomous Mobile Robot** developed for educational and research purposes.
-
----
 
 ## 🛠️ Design & Development of Autonomous Mobile Robot (AMR)
 
