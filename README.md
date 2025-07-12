@@ -74,6 +74,11 @@ amr_ws/<br>
 ## ✅ Ensure the Rviz Setup :-
 - Refer the screenshots shared.
 
+---
+## 📸 Final Prototype Images :-
+
+![Robot Photo](./images/amr collage.png)
+
 --------------------------------------------------------------------
 
 ## 🧱 System Architecture in short :-
@@ -88,4 +93,5 @@ amr_ws/<br>
 +---------------------+					|
            |____________________________________________|
 				 |
-		 Controlled through Laptop via SSH		 
+		 Controlled through Laptop via SSH	
+	 
