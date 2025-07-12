@@ -2,8 +2,7 @@
 
 This repository contains the complete **ROS 2 Humble** workspace of our **Final Year Engineering Project**<br> 
 
-## 🛠️ Design & Development of Autonomous Mobile Robot (AMR)
-
+# 🛠️ Design & Development of Autonomous Mobile Robot (AMR)
 ---
 
 ## 📁 Workspace Structure :-
