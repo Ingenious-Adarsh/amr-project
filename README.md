@@ -7,6 +7,8 @@ This repository contains the complete **ROS 2 Humble** workspace of our **Final 
 
 ## 🛠️ Design & Development of Autonomous Mobile Robot (AMR)
 
+---
+
 ## 📁 Workspace Structure :-
 amr_ws/<br>
 ├── src/<br>
@@ -16,6 +18,8 @@ amr_ws/<br>
 │   ├── YDLidar-SDK/<br>
 │   └── ydlidar_ros2_driver/<br>
 └── config/<br>
+
+---
 
 ## 🎯 Project Highlights :-
 
